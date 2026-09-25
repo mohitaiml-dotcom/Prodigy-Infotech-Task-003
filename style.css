@@ -1,0 +1,242 @@
+/* Basic settings */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    margin: 0;
+
+    font-family: Arial;
+
+    background-color: #f2f2f2;
+
+    color: #222;
+
+}
+
+
+/* Navigation */
+
+nav {
+
+    position: fixed;
+
+    top: 0;
+
+    width: 100%;
+
+    background-color: #111;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    padding: 15px 0;
+
+    z-index: 10;
+
+}
+
+
+nav h2 {
+
+    margin: 0;
+
+}
+
+
+.menu a {
+
+    color: white;
+
+    text-decoration: none;
+
+    margin: 10px;
+
+}
+
+
+.menu a:hover {
+
+    color: yellow;
+
+}
+
+
+/* Sections */
+
+section {
+
+    min-height: 500px;
+
+    padding: 100px 30px 50px;
+
+    text-align: center;
+
+}
+
+
+/* Home */
+
+#home {
+
+    background-color: navy;
+
+    color: white;
+
+    padding-top: 180px;
+
+}
+
+
+#home h1 {
+
+    font-size: 45px;
+
+}
+
+
+#home h2 {
+
+    font-size: 28px;
+
+}
+
+
+/* Button */
+
+button {
+
+    padding: 12px 25px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+
+button:hover {
+
+    background-color: lightblue;
+
+}
+
+
+/* Skills */
+
+.skills {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+}
+
+
+.skills div {
+
+    background-color: white;
+
+    padding: 20px;
+
+    width: 150px;
+
+    border-radius: 10px;
+
+}
+
+
+/* Cards */
+
+.card {
+
+    background-color: white;
+
+    padding: 25px;
+
+    margin: 20px auto;
+
+    max-width: 500px;
+
+    border-radius: 10px;
+
+}
+
+
+.projects {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+}
+
+
+.projects .card {
+
+    width: 250px;
+
+}
+
+
+/* Footer */
+
+footer {
+
+    background-color: #111;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    nav {
+
+        flex-direction: column;
+
+    }
+
+    .menu {
+
+        margin-top: 10px;
+
+    }
+
+    .menu a {
+
+        margin: 5px;
+
+    }
+
+    #home h1 {
+
+        font-size: 32px;
+
+    }
+
+}
